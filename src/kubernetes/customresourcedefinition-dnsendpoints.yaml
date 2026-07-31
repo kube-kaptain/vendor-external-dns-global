@@ -8,8 +8,8 @@ metadata:
     kaptain.org/source-repository: kube-kaptain/vendor-external-dns-global
   name: dnsendpoints.externaldns.k8s.io
   labels:
-    app: dnsendpoints.externaldns.k8s.io
-    app.kubernetes.io/name: dnsendpoints.externaldns.k8s.io
+    app: ${ProjectName}
+    app.kubernetes.io/name: ${ProjectName}
     app.kubernetes.io/version: "${Version}"
     app.kubernetes.io/managed-by: Kaptain
     app.kubernetes.io/part-of: ${ProductName}
